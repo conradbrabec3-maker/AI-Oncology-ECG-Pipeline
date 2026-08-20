@@ -1,0 +1,22 @@
+Initializing V9 Attention-Driven Inference Engine...
+🔬 Initializing V9 Attention-Driven Evaluation on: cuda
+⏳ Loading pristine, un-augmented TEST cohort...
+🚀 Commencing AI Diagnostic Scan...
+
+============================================================
+🏥 V9 AI DIAGNOSTIC REPORT (SE-ATTENTION HYBRID)
+============================================================
+True Negatives (Healthy): 2272  |  False Positives: 864
+False Negatives (Missed): 758  |  True Positives (Caught Cancer): 2378
+------------------------------------------------------------
+               precision    recall  f1-score   support
+
+Healthy (0.0)     0.7498    0.7245    0.7369      3136
+ Cancer (1.0)     0.7335    0.7583    0.7457      3136
+
+     accuracy                         0.7414      6272
+    macro avg     0.7417    0.7414    0.7413      6272
+ weighted avg     0.7417    0.7414    0.7413      6272
+
+============================================================
+

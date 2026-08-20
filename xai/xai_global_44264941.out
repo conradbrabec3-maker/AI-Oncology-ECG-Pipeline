@@ -1,0 +1,12 @@
+⏳ Starting Global XAI Batch...
+⏳ Initializing Global XAI Batch Processing...
+🚀 Math Engine: cuda
+📂 Scanning 500 patients for Global XAI Stats...
+
+ Global XAI Statistics successfully saved to /home/conrad.brabec/xai/global_xai_stats_1.csv
+==========================================
+📊 MACRO BIOLOGICAL ATTRIBUTION SUMMARY
+Average QRS Complex Importance: 26.09%
+Average T-Wave Importance:      14.99%
+Average R-R Interval Importance: 30.14%
+==========================================

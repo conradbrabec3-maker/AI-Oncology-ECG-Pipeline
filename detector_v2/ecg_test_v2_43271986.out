@@ -1,0 +1,33 @@
+⏳ Staging ZIP file onto local NVMe drive...
+✅ ZIP file safely staged locally.
+⏳ Activating Python Environment...
+⏳ Executing Final AI Exam...
+🚀 Evaluation Engine Target: cuda
+⏳ Loading labels and map...
+🔍 Successfully matched 86669 ECG records for the Final Exam!
+⏳ Administering Final Exam to the AI...
+
+==================================================
+ 🏥 AI ONCOLOGY DIAGNOSTIC REPORT
+==================================================
+
+Confusion Matrix:
+True Negatives (Correctly identified Healthy): 5599
+False Positives (Falsely called Cancer):     15654
+False Negatives (Missed the Cancer):         2661
+True Positives (Correctly identified Cancer):  62755
+
+Detailed Accuracy Report:
+               precision    recall  f1-score   support
+
+Healthy (0.0)       0.68      0.26      0.38     21253
+ Cancer (1.0)       0.80      0.96      0.87     65416
+
+     accuracy                           0.79     86669
+    macro avg       0.74      0.61      0.63     86669
+ weighted avg       0.77      0.79      0.75     86669
+
+==================================================
+
+⏳ Cleaning up node storage...
+✅ Pipeline safely terminated.

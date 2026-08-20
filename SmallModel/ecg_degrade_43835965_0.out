@@ -1,0 +1,16 @@
+🚀  Array task 0 of 5 starting...
+⏳ Starting Signal Degradation Pipeline (slice 0)...
+🔢  SLURM array task 0 → records 0 160007
+📂  Opening zip: /home/conrad.brabec/mimic-iv-ecg-diagnostic-electrocardiogram-matched-subset-1.0.zip
+🔍  Slice 0: records 0 160007 (160007 of 800035 total)
+
+
+═══════════════════════════════════════════════════════
+📊  Slice 0 Summary  (records 0 160007)
+  ✅  Processed  : 0
+  ↩️   Skipped    : 160007
+  ❌  Errors     : 0
+
+💾  Output dir  : /home/conrad.brabec/ecg_degraded_output
+═══════════════════════════════════════════════════════
+✅  Slice 0 complete.

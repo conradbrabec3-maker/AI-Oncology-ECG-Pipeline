@@ -1,0 +1,20 @@
+🚀 Starting Precise SQL Database Query on ARC compute node...
+🚀 Running hyper-precise ICD Oncology Query across millions of rows...
+✅ Found 126760 mathematically verified cancer diagnoses.
+
+--- Sample of the Diagnoses Captured ---
+   icd_version icd_code                                         long_title
+0            9     1890        Malignant neoplasm of kidney, except pelvis
+1            9     1539      Malignant neoplasm of colon, unspecified site
+2            9     1970               Secondary malignant neoplasm of lung
+3            9     1977             Malignant neoplasm of liver, secondary
+4            9     1539      Malignant neoplasm of colon, unspecified site
+5            9     1977             Malignant neoplasm of liver, secondary
+6            9     1970               Secondary malignant neoplasm of lung
+7            9     1991  Other malignant neoplasm without specification...
+8           10     C182              Malignant neoplasm of ascending colon
+9           10     C787  Secondary malignant neoplasm of liver and intr...
+
+Total unique cancer patients isolated: 29772
+📁 Saved strict patient IDs to /home/conrad.brabec/SQL/cancer_cohort_ids_strict.txt
+✅ SQL Query Completed Successfully.

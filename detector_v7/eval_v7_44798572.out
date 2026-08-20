@@ -1,0 +1,22 @@
+Initializing V7 Multimodal Evaluation...
+🔬 V7 Evaluation Target: cuda
+
+🚀 Beginning V7 Test Cohort Evaluation...
+
+============================================================
+🏥 V7 AI DIAGNOSTIC REPORT (HYBRID MULTIMODAL)
+============================================================
+True Negatives (Healthy): 2391  |  False Positives: 745
+False Negatives (Missed): 1133  |  True Positives (Caught Cancer): 2003
+------------------------------------------------------------
+               precision    recall  f1-score   support
+
+Healthy (0.0)     0.6785    0.7624    0.7180      3136
+ Cancer (1.0)     0.7289    0.6387    0.6808      3136
+
+     accuracy                         0.7006      6272
+    macro avg     0.7037    0.7006    0.6994      6272
+ weighted avg     0.7037    0.7006    0.6994      6272
+
+============================================================
+

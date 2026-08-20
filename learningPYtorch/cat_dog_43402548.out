@@ -1,0 +1,9 @@
+🚀 Booting up Cat/Dog Practice Node on cpu2025...
+Starting Training...
+Epoch 1/5 | Error (Loss): 0.7072
+Epoch 2/5 | Error (Loss): 6.0181
+Epoch 3/5 | Error (Loss): 0.4130
+Epoch 4/5 | Error (Loss): 5.0314
+Epoch 5/5 | Error (Loss): 2.9727
+Training Complete! You just built your first AI model.
+✅ Job successfully terminated.

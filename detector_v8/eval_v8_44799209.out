@@ -1,0 +1,22 @@
+Initializing V8 Multimodal Inference Engine...
+🔬 Initializing V8 Feature-Squeezed Evaluation on: cuda
+⏳ Loading unseen TEST cohort...
+🚀 Commencing AI Diagnostic Scan...
+
+============================================================
+🏥 V8 AI DIAGNOSTIC REPORT (FEATURE-SQUEEZED MULTIMODAL)
+============================================================
+True Negatives (Healthy): 2381  |  False Positives: 755
+False Negatives (Missed): 1261  |  True Positives (Caught Cancer): 1875
+------------------------------------------------------------
+               precision    recall  f1-score   support
+
+Healthy (0.0)     0.6538    0.7592    0.7026      3136
+ Cancer (1.0)     0.7129    0.5979    0.6504      3136
+
+     accuracy                         0.6786      6272
+    macro avg     0.6833    0.6786    0.6765      6272
+ weighted avg     0.6833    0.6786    0.6765      6272
+
+============================================================
+
