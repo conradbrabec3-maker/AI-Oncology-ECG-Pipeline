@@ -11,7 +11,7 @@
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 - [Project Overview](#-project-overview)
 - [Dataset & Data Pipeline](#-dataset--data-pipeline)
 - [Model Architecture Evolution](#-model-architecture-evolution)
@@ -31,7 +31,7 @@
 
 ---
 
-## 🎯 Project Overview
+##  Project Overview
 
 **AI Oncology ECG Pipeline** is a comprehensive deep learning framework designed to detect cancer from electrocardiogram (ECG) signals using data from the MIMIC-IV database. The project demonstrates an iterative development approach, evolving through multiple detector versions with increasingly sophisticated architectures and multimodal features.
 
@@ -50,7 +50,7 @@ This project investigates whether ECG signal characteristics can predict oncolog
 
 ---
 
-## 🗂️ Dataset & Data Pipeline
+##  Dataset & Data Pipeline
 
 ### MIMIC-IV ECG Database
 The pipeline processes ECG records from the **MIMIC-IV Electrocardiogram Matched Subset**, which contains diagnostic-grade ECG recordings with associated patient metadata.
@@ -84,7 +84,7 @@ The ML dataset is carefully balanced with a strict 50/50 split between:
 
 ---
 
-## 🏗️ Model Architecture Evolution
+##  Model Architecture Evolution
 
 The project evolved through multiple detector versions, each representing a significant iteration in design philosophy and technical capability.
 
@@ -280,7 +280,7 @@ hrv_features = np.array([mean_rr/1000.0, sdnn/100.0, rmssd/100.0],
 **Evaluation Results:**
 ```
 ============================================================
-🏥 V7 AI DIAGNOSTIC REPORT (HYBRID MULTIMODAL)
+ V7 AI DIAGNOSTIC REPORT (HYBRID MULTIMODAL)
 ============================================================
 True Negatives (Healthy):  2391 | False Positives:  745
 False Negatives (Missed):   1133 | True Positives: 2003
@@ -301,7 +301,7 @@ Directory structure indicates ongoing development with evaluation scripts, train
 
 ---
 
-## 🔬 Feature Engineering Toolkit
+##  Feature Engineering Toolkit
 
 Located in `toolkits/FeatureDB/`, this toolkit provides traditional signal processing features to complement deep learning:
 
@@ -338,7 +338,7 @@ Located in `toolkits/FeatureDB/`, this toolkit provides traditional signal proce
 
 ---
 
-## 🧪 Data Degradation & Robustness Testing (`SmallModel/`)
+##  Data Degradation & Robustness Testing (`SmallModel/`)
 
 To test model robustness against real-world noise, the project includes an ECG degradation pipeline:
 
@@ -421,7 +421,7 @@ python build_ml_dataset.py   # Create balanced train/val/test splits
 
 ---
 
-## 💻 Usage Examples
+##  Usage Examples
 
 ### Running Predictions
 ```bash
@@ -450,7 +450,7 @@ python SmallModel/ecg_degrade_mimic.py --slice 0
 
 ---
 
-## 📁 Project Directory Structure
+##  Project Directory Structure
 
 ```
 AI-Oncology-ECG-Pipeline/
@@ -495,7 +495,7 @@ AI-Oncology-ECG-Pipeline/
 
 ---
 
-## 📜 Project Iterations & Development History
+##  Project Iterations & Development History
 
 ### Iteration 1: Initial Concept (`run_predictions.py`)
 - **Goal**: Establish baseline ECG cancer detection capability
@@ -550,7 +550,7 @@ AI-Oncology-ECG-Pipeline/
 
 ---
 
-## ⚠️ Disclaimer & Limitations
+##  Disclaimer & Limitations
 
 - This is a research project using synthetic/derived labels from MIMIC-IV diagnostic codes
 - **NOT** intended for clinical diagnosis or medical decision-making
@@ -559,13 +559,13 @@ AI-Oncology-ECG-Pipeline/
 
 ---
 
-## 📝 License
+##  License
 
 MIT License - see LICENSE file for details.
 
 ---
 
-## 🔗 References
+##  References
 
 1. **MIMIC-IV Database**: https://physionet.org/content/mimiciv/
 2. **WFDB Library**: https://wfdb.readthedocs.io/
